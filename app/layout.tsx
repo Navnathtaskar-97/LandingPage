@@ -6,23 +6,23 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Neeta Chillore - Front-End Developer",
+  title: "Navnath Taskar - Front-End Developer",
   description:
     "Front-End Developer specializing in React.js, JavaScript, and modern web technologies. Building scalable and responsive web applications.",
-  keywords: "React Developer, Front-End Developer, JavaScript, Tailwind CSS, Web Development, Neeta Chillore",
-  authors: [{ name: "Neeta Chillore" }],
-  creator: "Neeta Chillore",
+  keywords: "React Developer, Front-End Developer, JavaScript, Tailwind CSS, Web Development, Navnath Taskar",
+  authors: [{ name: "Navnath Taskar" }],
+  creator: "Navnath Taskar",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://neeta-chillore.vercel.app",
-    title: "Neeta Chillore - Front-End Developer",
+    title: "Navnath Taskar - Front-End Developer",
     description: "Front-End Developer specializing in React.js, JavaScript, and modern web technologies.",
-    siteName: "Neeta Chillore Portfolio",
+    siteName: "Navnath Taskar Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Neeta Chillore - Front-End Developer",
+    title: "Navnath Taskar - Front-End Developer",
     description: "Front-End Developer specializing in React.js, JavaScript, and modern web technologies.",
   },
   robots: {
