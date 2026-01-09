@@ -499,70 +499,140 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "YouTube Clone",
+      title: "Project: callOps",
       description:
-        "A fully functional YouTube clone with video streaming, search functionality, and responsive design.",
-      tech: ["React", "Tailwind CSS", "YouTube API", "JavaScript"],
-      features: ["Video streaming", "Search with debounce", "Responsive video cards", "API integration"],
-      github: "#",
-      demo: "#",
-      image:
-        "http://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      category: "Web Application",
+        "Developed callOps, a multi-tenant AI-powered call management platform enabling inbound and outbound voice calls with real-time analytics and operational insights.",
+      tech: ["Node.js", "Express.js", "React.js", "Next.js", "Twilio API", "Retail AI"],
+      features: [], // Fallback or empty if roles are used primary
+      roles: [
+        "Designed and implemented inbound and outbound call workflows using Twilio APIs.",
+        "Built a multi-tenant backend architecture with tenant-level data isolation.",
+        "Integrated Retail AI models for call analysis, intent detection, and automated responses.",
+        "Developed scalable RESTful APIs using Node.js and Express.js.",
+        "Created dashboards using React.js and Next.js for call monitoring and reporting.",
+      ],
+      github: "https://callops.io/",
+      demo: "https://callops.io/",
+      image: "http://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      category: "AI Platform",
     },
     {
-      title: "Resume Builder",
-      description: "Dynamic resume builder with real-time preview and PDF generation capabilities.",
-      tech: ["Next.js", "React Hook Form", "PDF Generation", "TypeScript"],
-      features: ["Dynamic form logic", "Real-time preview", "PDF export", "Template selection"],
-      github: "#",
-      demo: "#",
-      image:
-        "http://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      category: "Productivity Tool",
+      title: "Project: CXO Dashboard",
+      description:
+        "Developed a data-driven CXO Dashboard that consolidates real-time analytics from PostgreSQL, MongoDB, and MySQL into a unified interface for executive decision-making.",
+      tech: ["Node.js", "Express.js", "React.js", "Next.js", "PostgreSQL", "MongoDB", "MySQL"],
+      features: [],
+      roles: [
+        "Designed and implemented scalable RESTful APIs using Node.js and Express.js.",
+        "Integrated PostgreSQL, MongoDB, and MySQL for cross-functional analytics workflows.",
+        "Built responsive dashboards using React.js and Next.js.",
+        "Optimized database queries, reducing data retrieval latency by up to 30%.",
+      ],
+      github: "https://geneilytics.com/",
+      demo: "https://geneilytics.com/",
+      image: "http://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      category: "Analytics Dashboard",
     },
     {
-      title: "Amazon Clone",
-      description: "E-commerce platform with product listings, shopping cart, and user authentication.",
-      tech: ["React", "CSS Modules", "JavaScript", "Local Storage"],
-      features: ["Product listing", "Add to cart", "User authentication", "Responsive design"],
+      title: "Project: Urjjaa",
+      description:
+        "Built a responsive health progress and analytics platform focused on real-time diagnostics and data visualization.",
+      tech: ["React.js", "Tailwind CSS", "Material UI", "Redux"],
+      features: [],
+      roles: [
+        "Developed responsive UI using React.js, Tailwind CSS, and Material UI.",
+        "Implemented Redux for centralized state management and improved scalability.",
+        "Integrated APIs to display real-time health diagnostics and analytics.",
+        "Ensured cross-device compatibility and performance optimization.",
+      ],
       github: "#",
       demo: "#",
-      image: "http://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      category: "E-commerce",
+      image: "http://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      category: "HealthTech",
     },
     {
-      title: "HRMS System",
-      description: "Human Resource Management System with employee management and data validation.",
-      tech: ["Java", "Database", "Validation", "Swing"],
-      features: ["Employee login", "Data entry", "Validation logic", "Report generation"],
+      title: "Project: JN Civil",
+      description:
+        "Developed a web-based construction and project showcase platform with focus on UI performance and responsiveness.",
+      tech: ["React.js", "HTML", "CSS", "Material UI"],
+      features: [],
+      roles: [
+        "Built reusable UI components using React.js, HTML, and CSS.",
+        "Implemented Material UI for consistent design and improved user experience.",
+        "Developed homepage and backend-integrated component pages.",
+        "Implemented pagination and responsive layouts for better usability.",
+        "Ensured mobile-first design and cross-browser compatibility.",
+      ],
       github: "#",
       demo: "#",
-      image:
-        "http://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      category: "Enterprise Software",
+      image: "http://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      category: "Construction Platform",
     },
-    {
-      title: "Portfolio Website",
-      description: "Personal branding website showcasing projects and professional experience.",
-      tech: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-      features: ["Responsive design", "Contact form", "Project showcase", "Professional layout"],
-      github: "#",
-      demo: "#",
-      image:
-        "http://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      category: "Portfolio",
-    },
-    {
-      title: "Recipe Hunt",
-      description: "Recipe search application with filtering capabilities and error handling.",
-      tech: ["React", "API Integration", "Error Handling", "CSS"],
-      features: ["Recipe search", "Advanced filters", "Error handling", "Responsive UI"],
-      github: "#",
-      demo: "#",
-      image: "http://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      category: "Web Application",
-    },
+    // {
+    //   title: "YouTube Clone",
+    //   description:
+    //     "A fully functional YouTube clone with video streaming, search functionality, and responsive design.",
+    //   tech: ["React", "Tailwind CSS", "YouTube API", "JavaScript"],
+    //   features: ["Video streaming", "Search with debounce", "Responsive video cards", "API integration"],
+    //   github: "#",
+    //   demo: "#",
+    //   image:
+    //     "http://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    //   category: "Web Application",
+    // },
+    // {
+    //   title: "Resume Builder",
+    //   description: "Dynamic resume builder with real-time preview and PDF generation capabilities.",
+    //   tech: ["Next.js", "React Hook Form", "PDF Generation", "TypeScript"],
+    //   features: ["Dynamic form logic", "Real-time preview", "PDF export", "Template selection"],
+    //   github: "#",
+    //   demo: "#",
+    //   image:
+    //     "http://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    //   category: "Productivity Tool",
+    // },
+    // {
+    //   title: "Amazon Clone",
+    //   description: "E-commerce platform with product listings, shopping cart, and user authentication.",
+    //   tech: ["React", "CSS Modules", "JavaScript", "Local Storage"],
+    //   features: ["Product listing", "Add to cart", "User authentication", "Responsive design"],
+    //   github: "#",
+    //   demo: "#",
+    //   image: "http://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    //   category: "E-commerce",
+    // },
+    // {
+    //   title: "HRMS System",
+    //   description: "Human Resource Management System with employee management and data validation.",
+    //   tech: ["Java", "Database", "Validation", "Swing"],
+    //   features: ["Employee login", "Data entry", "Validation logic", "Report generation"],
+    //   github: "#",
+    //   demo: "#",
+    //   image:
+    //     "http://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    //   category: "Enterprise Software",
+    // },
+    // {
+    //   title: "Portfolio Website",
+    //   description: "Personal branding website showcasing projects and professional experience.",
+    //   tech: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    //   features: ["Responsive design", "Contact form", "Project showcase", "Professional layout"],
+    //   github: "#",
+    //   demo: "#",
+    //   image:
+    //     "http://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    //   category: "Portfolio",
+    // },
+    // {
+    //   title: "Recipe Hunt",
+    //   description: "Recipe search application with filtering capabilities and error handling.",
+    //   tech: ["React", "API Integration", "Error Handling", "CSS"],
+    //   features: ["Recipe search", "Advanced filters", "Error handling", "Responsive UI"],
+    //   github: "#",
+    //   demo: "#",
+    //   image: "http://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    //   category: "Web Application",
+    // },
   ]
 
   const navItems = [
@@ -1211,12 +1281,14 @@ export default function Portfolio() {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold mb-2 text-sm">Key Features:</h4>
+                      <h4 className="font-semibold mb-2 text-sm">
+                        {(project as any).roles ? "Roles & Responsibilities:" : "Key Features:"}
+                      </h4>
                       <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1">
-                        {project.features.map((feature, i) => (
+                        {((project as any).roles || project.features).map((item: string, i: number) => (
                           <li key={i} className="flex items-start space-x-2">
                             <div className="w-1 h-1 bg-blue-600 rounded-full mt-2 flex-shrink-0" />
-                            <span>{feature}</span>
+                            <span>{item}</span>
                           </li>
                         ))}
                       </ul>
